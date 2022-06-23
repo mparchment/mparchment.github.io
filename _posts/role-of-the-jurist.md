@@ -1,7 +1,7 @@
 ---
-title: Perils of Polemics
+title: Role of the Jurist
 author: Yusha
 categories: History
-tags: [Theology]
+tags: [Jurisprudence]
 render_with_liquid: true
 ---

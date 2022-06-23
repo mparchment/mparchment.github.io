@@ -1,7 +1,7 @@
 ---
 title: Perils of Polemics
 author: Yusha
-categories: History
-tags: [Theology]
+categories: Theology
+tags: [Ibn Taymiyya, Al-Tufi]
 render_with_liquid: true
 ---
