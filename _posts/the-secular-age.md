@@ -44,7 +44,7 @@ This individuality brought about a kind of social bonding, as the living could p
 
 "Reform", with a capital 'R', should be distinguished from more moderate attempts to spread practice by preaching, encouragement, and example. What distinguishes Reform from other movements is that the latter does not seek to delegitimate less dedicated forms, but only to bring more people to higher "speeds", or level of devotion. Nonetheless, the Reformation can be thought of as the final culmination of this reform spirit, which produced a uniform community of believers that left no room for different speeds. Every Christian was to be dedicated entirely to the faith in every facet of life.
 
-The spiritual power of the Church was challenged by deep theological objections nearing the end of the Middle Ages, stemming from the nominalism of William of Ockham.[^3] Treating anything as a charged object regardless of the purpose, even the sacraments, was in principle wrong. God's power could not be contained or controlled through its confinement in things, to be aimed by man in one direction or another. The notion that any old priest, however debauched, could control or influence God's actions was unacceptable. 
+The spiritual power of the Church was challenged by deep theological objections nearing the end of the Middle Ages, stemming from the nominalism of William of Ockham.[^3] Treating anything as a charged object regardless of the purpose, even the sacraments, was in principle wrong. God's power could not be contained or controlled through its confinement in things, to be aimed by man in one direction or another. The notion that any old priest, however debauched, could control or influence God's actions was unacceptable.
 
 For the earlier heresies during the medieval period, the sacraments became purely symbolic, authority slid away from hierarchy to be placed back in scripture, and the visible Church was distinguished from the true community of the saved. But it was not until Luther's doctrine of salvation by faith that made the denial of the Church's spiritual power possible.[^4] Luther's message was that every individual was a sinner and deserved punishment. Salvation required facing and accepting this fully. Only in facing one's sinfulness, can one throw themselves at the mercy of God. "Whoever fears Hell runs towards it".
 
@@ -75,6 +75,7 @@ Individualism, as it emerged later, was a result of the attempts in post-Axial s
 ![Election Day, Krimmel](/assets/img/Election Day, Krimmel.jpg)
 
 # Modern Social Imaginaries
+
 Social imaginaries comprise the ways people imagine their social existence, how people interact with each other, the deeper meanings underlying these, and how we all fit together. "Social imaginary" is different from "theory".[^8] The latter has only been adopted by a select few or the elites, while the former has popular legitimacy among common people. Though what started as a theory can be adopted by elites and then spread to the masses, after a series of transformations.
 
 The social imaginary also consists of a "background", or the wider grasp of the societal situation including how we stand to each other and how we got to where we are. This understanding is mutually reinforcing with actual practice. There are common actions that everyone knows how to do, and in which cases it is appropriate. Everyone knows what it means and entails to have a demonstration, for example.
@@ -118,25 +119,14 @@ What makes the modern public sphere distinct from ancient democracy, is it owes 
 Unlike the law of a tribe, which was always defined by some legendary event in or an agent in "higher" time, the public sphere is seen as nothing more than the communication of men. Thoughts that arise today is thought of as no different in nature from what happened previously in the public sphere. This way, it becomes fully secular, without being based in the transcendent.
 
 [^1]: There was not yet any line drawn between the physical and the moral. In fact, this boundary was porous. Things that were not human could alter or shape one's spiritual and emotional condition. (A Secular Age, p. 40)
-
 [^2]: Beginning with Meister Eckhart, a tradition of German mystics encouraged the intensification of worship, with emphasis on private prayer, introspection, and even the keeping of a journal. This was somewhat different than mainline popular piety at the time, which focused more on devotional acts, such as fasting or pilgrimage. (A Secular Age, p. 71)
-
 [^3]: Rejection of the magic of the Church appeared at both the elite and popular level during this period. They believed that Church magic was an illegitimate claim to control the power of God because its claimants, the clergy, were often far from holy. (A Secular Age, p. 74)
-
 [^4]: This was prefaced by earlier Catholic preaching on sin by making minor sins seem disastrous. This was done on the principle that the ordinary person was insensitive and had to be terrified into responding. All this made the laity receptive to Luther's reversal of the field. (A Secular Age, p. 75)
-
 [^5]: The idea of civility led to the withdrawal of the upper classes from popular culture. In earlier periods, aspects of popular culture, such as Carnival, was everyone's culture; a second for the educated and the only for everyone else. Over the centuries, elites abandoned popular culture and gradually became detached from the lower classes by profound differences in worldview. (A Secular Age, p. 110)
-
 [^6]: It was always held in Christianity that the number of the saved was very small. Among earlier figures, this division between the saved and damned ran equally across many societies. For Protestants, it ended up running between godly societies, where the majority were saved, and societies of darkness, where the majority would be damned. In this milieu, the confidence to fully remold society emerges. (A Secular Age, p. 122)
-
 [^7]: At times, these deities were thought of as indifferent, or even hostile, and so man required the assistance of other deities to reach them. (A Secular Age, p. 151)
-
 [^8]: Theory becomes the social imaginary when people take up new practices or are inducted into them. It begins to define contours if their world as they practice it, and eventually it is taken for granted. Practices can even modify the theory, which then generates other practices. (A Secular Age, p. 176)
-
 [^9]: Grotius's objective was to undercut reasons for rebellion in a time of religious turmoil and zealotry, but Locke was the first to use this theory as a justification for limited government. (A Secular Age, p. 160)
-
 [^10]: Society is reconceived as one of mutual benefit, and inherently hierarchal things, such as the kingdom, church, and later on, the family, have to be reconsidered. Individualism, at this point, has succeeded in transforming the social imaginary. (A Secular Age, p. 169)
-
 [^11]: This was troubling to some, some of whom believed that it made men "effeminate", and others who were concerned about levelling of old values such as heroism and greatness. Many attempts to build an alternative to the modern moral order have emerged and continue to appeal to many (A Secular Age, p. 180)
-
 [^12]: Locke's contract theory placed heavy emphasis on the consent of the ruled, which was a continuous process, leading to the function of public opinion (A Secular Age, p. 188)
