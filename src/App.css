@@ -1,0 +1,95 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  width: 57%;
+
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.left-wrapper {
+  position: fixed;
+  max-width: 22vw;
+  height: 80vh;
+}
+
+.right-wrapper {
+  width: 52%;
+  margin-left: 48%;
+}
+
+.intro {
+  margin-bottom: 5rem;
+
+  p:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.name-heading {
+  font-size: 2.75rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 0;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+
+.role-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.role-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.role-date {
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
+.role-description {
+  font-size: 1rem;
+}
+
+.tech-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: .9rem;
+  
+  li {
+    color: rgb(0,0,0,.75);
+    background-color: rgb(255 , 255 ,255, .9);
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.arrow-link {
+  font-size: .9rem;
+  margin-left: 8px;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(0, 0, 0, .8); 
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  display: flex;
+  
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 150%;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration-color: rgba(255, 255, 255, 0.4);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.3s ease;
+}
+
+a:hover {
+  text-decoration-color: rgba(255, 255, 255, 0.8);
+}
+
+::-webkit-scrollbar-track {
+  background-color: #070707;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #111111;
+  border-radius: 10px;
+  border: 5px solid #111111;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  background-color: #111111;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #111111;
+}
