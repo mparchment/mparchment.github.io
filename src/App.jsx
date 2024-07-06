@@ -1,5 +1,11 @@
 import './App.css'
 import RoleCard from './RoleCard';
+import GitHubIcon from './assets/github.svg'
+import LinkedInIcon from './assets/linkedin.svg'
+import Resume from './assets/resume.pdf'
+import ELKImage from './assets/elk.jpg'
+import DocAIImage from './assets/docai.jpg'
+import MCCImage from './assets/mcc.jpg'
 
 function App() {
 
@@ -8,31 +14,63 @@ function App() {
       <div className="left-wrapper">
         <h1 className="name-heading">Michael Parchment</h1>
         <h2>Software Engineer at DocAI</h2>
-        <p>Hey, I am Michael Parchment. I build pixel-perfect, engaging, and accessible digital experiences.</p>
+        <p> Hi! I'm Michael Parchment and I currently work as a Software Engineer at DocAI. I'm also a certified Databricks Data Engineer.</p>
         <ul className="social-links">
-          <li><a href="https://www.linkedin.com/in/mparchment/">LinkedIn</a></li>
-          <li><a href="https://github.com/mparchment">GitHub</a></li>
+          <li>
+            <a href="https://github.com/mparchment">
+              <img src={GitHubIcon} alt="GitHub" height="20px"/>
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mparchment/">
+              <img src={LinkedInIcon} alt="LinkedIn" height="20px"/>  
+              LinkedIn
+            </a>
+          </li>
         </ul>
       </div>
       <div className="right-wrapper">
+        <h2>About</h2>
         <div className="intro">
-          <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.</p>
-          <p>My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.</p>
-          <p>When I’m not at the computer, I’m usually rock climbing, reading, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds.</p>
+          <p>I graduated with a Bachelor of Science in Computer Science from the University of Maryland, Baltimore County. </p><p>Currently, I work as a Software Engineer at DocAI. My role involves spearheading the setup of centralized logging with Elasticsearch, Logstash, and Docker, enhancing frontend interfaces with React, Redux, and TypeScript, and optimizing testing and infrastructure migrations.</p><p> I am also a Web Developer at MCC, where I focus on WordPress site maintenance, theme development, and performance optimization. </p>
         </div>
+        <h2>Experience</h2>
         <div className="role-list">
           <RoleCard 
             date="2024 — Present"
-            title="Founding Engineer · DocAI"
-            description="Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools."
-            techList={["JavaScript", "TypeScript", "Python", "Django", "Azure"]}
+            title="Software Engineer · DocAI"
+            description="At DocAI, a telehealth startup connecting users to doctors through a chat interface, I spearheaded centralized logging with Elasticsearch, Logstash, and Docker, and collaborated with other developers to build on the frontend using React, Redux, and TypeScript. I was also responsible for testing on the the Django backend, including mocking all external API calls. Additionally, I contributed to writing extensive documentation for our architechture."
+            techList={["JavaScript", "TypeScript", "Python", "Django", "Azure", "Elasticsearch", "Logstash", "Docker"]}
+            link="https://www.docai.us/"
+            image={DocAIImage}
           />
           <RoleCard 
-            date="2022 — Present"
-            title="Fullstack Developer · MCC"
-            description="Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools."
-            techList={["JavaScript", "TypeScript", "HTML & CSS"]}
+            date="2023 — 2024"
+            title="Web Developer · MCC"
+            description="At MCC, I maintained and enhanced multiple WordPress websites with  continuous uptime and up-to-date content. I developed and implemented custom WordPress themes and mobile-friendly templates, driving increased website traffic, lead generation, and alignment with site design and branding goals. Through performance optimization for speed, scalability, and improved search engine visibility, I achieved reduced page load times and higher user engagement, resulting in increased organic traffic. I also provided technical support and training to staff, ensuring proficient website usage."
+            techList={["WordPress", "PHP", "HTML", "CSS", "Google Analytics"]}
+            link="https://mccmd.org/"
+            image={MCCImage}
           />
+        </div>
+        <div className="resume-link-div">
+          <a href={Resume}>View Full Resume</a>
+          <span className="arrow-link">↗</span>
+        </div>
+        <h2>Projects</h2>
+        <div className="project-list">
+          <div className="project-card">
+            <div className="project-image">
+              <img src={ELKImage} alt="ELK-Fleet" />
+            </div>
+            <div className="project-description">
+              <h3 className="project-title"><a href="https://github.com/mparchment/elk-fleet">ELK-Fleet</a></h3>
+              <p>
+                I customized a barebones Elastic Stack setup to run on Docker with pre-configured SSL/TLS certificates. This was designed to meet the needs of organizations requiring fast and secure centralized logging, enabling immediate deployment. Unified data collection through Elastic Fleet and Elastic Agents was integrated to streamline operations and eliminate the necessity for separate Beats installations.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

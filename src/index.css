@@ -11,12 +11,19 @@ html, body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url('./assets/cursor.svg'), auto;
 }
+
 #root {
   display: flex;
   
   padding-top: 5rem;
   padding-bottom: 5rem;
+
+  @media (max-width: 1024px) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }
 
 p {
@@ -58,4 +65,19 @@ a:hover {
 
 ::-webkit-scrollbar-corner {
   background-color: #111111;
+}
+
+.role-div {
+  hyphens: auto;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image img {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
 }

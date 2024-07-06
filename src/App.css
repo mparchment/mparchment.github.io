@@ -6,22 +6,40 @@
 
   margin: 0 auto;
   gap: 2rem;
+
+  @media (max-width: 1024px) {
+    width: 88%;
+    flex-direction: column;
+  }
 }
 
 .left-wrapper {
   position: fixed;
   max-width: 22vw;
   height: 80vh;
+
+  @media (max-width: 1024px) {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .right-wrapper {
   width: 52%;
   margin-left: 48%;
+
+  h2:not(:first-child) {
+    margin-top: 5rem;
+  }
+
+  @media (max-width: 1024px){
+    width: auto;
+    margin-left: 0;
+  }
 }
 
 .intro {
-  margin-bottom: 5rem;
-
   p:first-of-type {
     margin-top: 0;
   }
@@ -31,6 +49,10 @@
   font-size: 2.75rem;
   font-weight: 800;
   margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 2.2rem;
+  }
 }
 
 .social-links {
@@ -45,6 +67,16 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 10px;
+
+  a {
+    display: flex;
+    gap: 5px;
+  }
+
+  @media (max-width: 1024px) {
+    position: relative;
+    flex-direction: row;
+  }
   
 }
 
@@ -57,12 +89,36 @@
 .role-div {
   display: flex;
   gap: 2rem;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  @media (min-width: 1025px) {
+    > div:first-child {
+      flex: 3; 
+    }
+
+    > div:last-child {
+      flex: 11; 
+    }
+  }
 }
 
 .role-date {
-  white-space: nowrap;
-  text-transform: uppercase;
-  font-size: .9rem;
+  p {
+    text-transform: uppercase;
+    font-size: .9rem;
+
+    @media (max-width: 1024px) {
+      margin: 0;
+    }
+  }
+}
+
+.role-title {
+  margin-top: 1.17rem !important;
 }
 
 .role-description {
@@ -90,6 +146,33 @@
 }
 
 .arrow-link {
-  font-size: .9rem;
+  font-size: 1rem;
   margin-left: 8px;
+}
+
+.resume-link-div {
+  margin-top: 3rem !important;
+  font-weight: 700;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-card {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-description {
+  p {
+    font-size: 1rem;
+  }
+
+  h3 {
+    margin-top: 0 !important;
+    margin-bottom: 1rem;
+  }
 }
