@@ -33,7 +33,7 @@ function App() {
       <div className="right-wrapper">
         <h2>About</h2>
         <div className="intro">
-          <p>I graduated with a Bachelor of Science in Computer Science from the University of Maryland, Baltimore County. </p><p>Currently, I work as a Software Engineer at DocAI. My role involves spearheading the setup of centralized logging with Elasticsearch, Logstash, and Docker, enhancing frontend interfaces with React, Redux, and TypeScript, and optimizing testing and infrastructure migrations.</p><p> I am also a Web Developer at MCC, where I focus on WordPress site maintenance, theme development, and performance optimization. </p>
+          <p>I graduated with a Bachelor of Science in Computer Science from the University of Maryland, Baltimore County in December 2023. </p><p>Currently, I work as a Software Engineer at DocAI. My role involves spearheading the setup of centralized logging with Elasticsearch, Logstash, and Docker, enhancing frontend interfaces with React, Redux, and TypeScript, and optimizing testing and infrastructure migrations.</p><p> I am also a Web Developer at MCC, where I focus on WordPress site maintenance, theme development, and performance optimization. </p>
         </div>
         <h2>Experience</h2>
         <div className="role-list">
