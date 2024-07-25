@@ -1,8 +1,8 @@
 .page-wrapper {
-  display: flex;
+  display: relative;
   flex-direction: row;
 
-  width: 57%;
+  width: 90%;
 
   margin: 0 auto;
   gap: 2rem;
@@ -15,7 +15,6 @@
 
 .left-wrapper {
   position: fixed;
-  max-width: 22vw;
   height: 80vh;
 
   @media (max-width: 1024px) {
@@ -41,24 +40,29 @@
 
 .intro {
   p:first-of-type {
-    margin-top: 0;
+    margin-top: 10px;
   }
 }
 
 .name-heading {
-  font-size: 2.75rem;
-  font-weight: 800;
+  font-size: 3.25rem;
+  font-weight: 300;
+  letter-spacing: -2.4px;
   margin: 0;
+  padding: 0;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1080px) {
     font-size: 2.2rem;
   }
 }
 
-.social-links {
-  position: absolute;
-  bottom: 0;
+.title {
+  font-size: 13px;
+  letter-spacing: -.8px;
+  font-weight: 500;
+}
 
+.social-links {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -68,9 +72,13 @@
   flex-wrap: wrap;
   gap: 10px;
 
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -.8px;
+
   a {
     display: flex;
-    gap: 5px;
+    text-transform: uppercase;
   }
 
   @media (max-width: 1024px) {
@@ -136,8 +144,6 @@
   font-size: .9rem;
   
   li {
-    color: rgb(0,0,0,.75);
-    background-color: rgb(255 , 255 ,255, .9);
     border-radius: 5px;
     padding: 3px;
     padding-left: 10px;
@@ -174,5 +180,34 @@
   h3 {
     margin-top: 0 !important;
     margin-bottom: 1rem;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  height: 90%;
+  border: 100px solid rgba(235, 235, 235, 0.85);
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.overlay::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  outline: 1px solid rgb(0, 0, 0);
+  pointer-events: none;
+}
+
+@media (max-width: 1080px) {
+  .overlay {
+    display: none;
   }
 }
