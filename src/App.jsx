@@ -45,7 +45,7 @@ function App() {
             <RoleCard 
               date="2024 — Present"
               title="Software Engineer · DocAI"
-              description="At DocAI, a telehealth startup connecting users to doctors through a chat interface, I spearheaded centralized logging with Elasticsearch, Logstash, and Docker, and collaborated with other developers to build on the frontend using React, Redux, and TypeScript. I was also responsible for testing on the the Django backend, including mocking all external API calls. Additionally, I contributed to writing extensive documentation for our software architechture."
+              description="At DocAI, a telehealth startup connecting users to providers through a chat interface, I spearheaded centralized logging with Elasticsearch, Logstash, and Docker, and collaborated with other developers to build on the frontend using React, Redux, and TypeScript. I was also responsible for testing on the the Django backend, including mocking all external API calls. Additionally, I contributed to writing extensive documentation for our software architechture."
               techList={["JavaScript", "TypeScript", "Python", "Django", "Azure", "Elasticsearch", "Logstash", "Docker"]}
               link="https://www.docai.us/"
               image={DocAIImage}
