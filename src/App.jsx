@@ -12,7 +12,6 @@ function App() {
 
   return (
     <>
-      <AnimatedSphere />
       <div className="page-wrapper">
         <div className="left-wrapper">
           <h1 className="name-heading">Michael Parchment</h1>

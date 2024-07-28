@@ -1,54 +1,70 @@
 @font-face {
-  font-family: 'PPNeueMontrealMono';
-  src: url('./assets/fonts/PPNeueMontrealMono-Book.otf') format('opentype');
-  font-weight: 400;
+  font-family: "Neue Montreal";
+  font-weight: 700;
+  font-style: normal;
+  src: url("./assets/fonts/NeueMontreal-Bold.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'PPNeueMontrealMono';
-  src: url('./assets/fonts/PPNeueMontrealMono-Medium.otf') format('opentype');
+  font-family: "Neue Montreal";
+  font-weight: 700;
+  font-style: italic;
+  src: url("./assets/fonts/NeueMontreal-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  font-weight: 400;
+  font-style: italic;
+  src: url("./assets/fonts/NeueMontreal-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  font-weight: 300;
+  font-style: normal;
+  src: url("./assets/fonts/NeueMontreal-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  font-weight: 300;
+  font-style: italic;
+  src: url("./assets/fonts/NeueMontreal-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Neue Montreal";
   font-weight: 500;
+  font-style: normal;
+  src: url("./assets/fonts/NeueMontreal-Medium.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'PPNeueMontrealMono';
-  src: url('./assets/fonts/PPNeueMontrealMono-RegularItalic.otf') format('opentype');
+  font-family: "Neue Montreal";
+  font-weight: 500;
+  font-style: italic;
+  src: url("./assets/fonts/NeueMontreal-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Neue Montreal";
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
+  src: url("./assets/fonts/NeueMontreal-Regular.otf") format("opentype");
 }
-
-@font-face {
-  font-family: 'PPNeueMontrealMono';
-  src: url('./assets/fonts/PPNeueMontrealMono-BoldItalic.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'PPNeueMontrealMono';
-  src: url('./assets/fonts/PPNeueMontrealMono-Bold.otf') format('opentype');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'PPNeueMontrealMono';
-  src: url('./assets/fonts/PPNeueMontrealMono-Thin.otf') format('opentype');
-  font-weight: 100;
-}
-
 
 html, body {
   margin: 0;
   padding: 0;
   width: 100%; 
-  font-family: 'PPNeueMontrealMono', monospace;
+  font-family: 'Neue Montreal';
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: url('./assets/cursor.svg'), auto;
   background-color: hsl(0, 0%, 90%);
-  letter-spacing: -.8px;
 }
 
 #root {
