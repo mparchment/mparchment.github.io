@@ -50,7 +50,7 @@ function App() {
               image={DocAIImage}
             />
             <RoleCard 
-              date="2022 — 2023"
+              date="2021 — 2022"
               title="Web Developer · MCC"
               description="At MCC, I maintained and enhanced multiple WordPress websites with  continuous uptime and up-to-date content. I developed and implemented custom WordPress themes and mobile-friendly templates, driving increased website traffic, lead generation, and alignment with site design and branding goals. Through performance optimization for speed, scalability, and improved search engine visibility, I achieved reduced page load times and higher user engagement, resulting in increased organic traffic. I also provided technical support and training to staff, ensuring proficient website usage."
               techList={["WordPress", "PHP", "HTML", "CSS", "Google Analytics"]}
